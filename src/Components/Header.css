@@ -1,0 +1,18 @@
+.navbar.sticky-top {
+  background-color:  #e00a18; /* Change the background color to dark gray */
+  
+  padding: 1rem 2rem; /* Increase the padding to make the navbar taller */
+  font-size: 1.2rem; /* Increase the font size */
+}
+
+.navbar-brand {
+  color: aliceblue;
+  font-size: 1.6rem; /* Increase the font size of the brand logo */
+}
+.nav-link {
+  color: azure;
+  font-size: 1.2rem; /* Increase the font size of the navigation links */
+}
+.navbar.sticky-top .navbar-toggler-icon {
+  filter: invert(1); /* invert the icon color to white */
+}

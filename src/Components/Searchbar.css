@@ -1,0 +1,15 @@
+.search-container {
+    display: flex;
+    justify-content:center;
+    padding-left: 15px;
+}
+.search-container label {
+    padding: 10px;
+}
+.search-container select {
+    border-radius: 15px;
+   
+}
+.search-container input {
+    border-radius: 15px;
+}

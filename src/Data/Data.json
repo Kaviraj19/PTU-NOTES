@@ -1,0 +1,155 @@
+[
+  {
+    "department": "CSE",
+    "year": 1,
+    "subjectName": "Introduction to Programming",
+    "chapters": [
+      {
+        "name": "Variables and Data Types",
+        "link": "https://example.com/variables-and-data-types.pdf"
+      },
+      {
+        "name": "Operators and Control Structures",
+        "link": "https://example.com/operators-and-control-structures.pdf"
+      },
+      {
+        "name": "Functions and Modules",
+        "link": "https://example.com/functions-and-modules.pdf"
+      },
+      {
+        "name": "Object-Oriented Programming",
+        "link": "https://example.com/object-oriented-programming.pdf"
+      }
+    ]
+  },
+  {
+    "department": "CSE",
+    "year": 2,
+    "subjectName": "Data Structures",
+    "chapters": [
+      {
+        "name": "Arrays and Linked Lists",
+        "link": "https://example.com/arrays-and-linked-lists.pdf"
+      },
+      {
+        "name": "Stacks and Queues",
+        "link": "https://example.com/stacks-and-queues.pdf"
+      },
+      {
+        "name": "Trees and Graphs",
+        "link": "https://example.com/trees-and-graphs.pdf"
+      },
+      {
+        "name": "Hash Tables and Heaps",
+        "link": "https://example.com/hash-tables-and-heaps.pdf"
+      }
+    ]
+  },
+  {
+    "department": "CSE",
+    "year": 3,
+    "subjectName": "Operating System",
+    "chapters": [
+      {
+        "name": "Process Management",
+        "link": "https://example.com/process-management.pdf"
+      },
+      {
+        "name": "Memory Management",
+        "link": "https://example.com/memory-management.pdf"
+      },
+      {
+        "name": "File Systems",
+        "link": "https://example.com/file-systems.pdf"
+      },
+      {
+        "name": "Security and Threats",
+        "link": "https://example.com/security-and-threats.pdf"
+      }
+    ]
+  },
+  {
+    "department": "CSE",
+    "year": 4,
+    "subjectName": "Computer Networks",
+    "chapters": [
+      {
+        "name": "Network Fundamentals",
+        "link": "https://example.com/network-fundamentals.pdf"
+      },
+      {
+        "name": "Network Protocols",
+        "link": "https://example.com/network-protocols.pdf"
+      },
+      {
+        "name": "Network Architecture",
+        "link": "https://example.com/network-architecture.pdf"
+      },
+      {
+        "name": "Network Security",
+        "link": "https://example.com/network-security.pdf"
+      }
+    ]
+  },
+  {
+    "department": "ECE",
+    "year": 1,
+    "subjectName": "Electronics Circuits",
+    "chapters": [
+      {
+        "name": "Circuit Analysis",
+        "link": "https://example.com/circuit-analysis.pdf"
+      },
+      {
+        "name": "Electronic Devices",
+        "link": "https://example.com/electronic-devices.pdf"
+      },
+      {
+        "name": "Amplifiers and Oscillators",
+        "link": "https://example.com/amplifiers-and-oscillators.pdf"
+      },
+      {
+        "name": "Filters and Transmission Lines",
+        "link": "https://example.com/filters-and-transmission-lines.pdf"
+      }
+    ]
+  },
+  {
+    "department": "ECE",
+    "year": 2,
+    "subjectName": "Digital Electronics",
+    "chapters": [
+      {
+        "name": "Number Systems and Codes",
+        "link": "https://example.com/number-systems-and-codes.pdf"
+      },
+      {
+        "name": "Combinational Logic",
+        "link": "https://example.com/combinational-logic.pdf"
+      },
+      {
+        "name": "Sequential Logic",
+        "link": "https://example.com/sequential-logic.pdf"
+      },
+      {
+        "name": "Microprocessors and Interfacing",
+        "link": "https://example.com/microprocessors-and-interfacing.pdf"
+      }
+    ]
+  },
+  {
+    "department": "ECE",
+    "year": 3,
+    "subjectName": "Communication Systems",
+    "chapters": [
+      {
+        "name": "Analog Communication",
+        "link": "https://example.com/analog-communication.pdf"
+      },
+      {
+        "name": "Digital Communication",
+        "link": "https://example.com/digital-communication.pdf"
+      }
+    ]
+  }
+]

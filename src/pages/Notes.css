@@ -1,0 +1,51 @@
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 20px;
+  list-style-type: none;
+}
+
+.card-item {
+  margin: 20px;
+  flex-basis: 18rem;
+}
+
+.card {
+  padding: 10px;
+  margin-bottom: 20px; /* Space between each card */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+  border-radius: 10px; /* Border radius */
+}
+
+.card-header {
+  padding: 10px;
+  background-color: #cc3333;
+}
+
+.list-group-item {
+  background-color: rgb(249, 215, 215);
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+.col-md-12 {
+
+  padding-bottom:50px;
+}
+
+/* Fix extra spacing issue on smaller screens */
+@media (max-width: 768px) {
+  .card-list {
+    flex-direction: column;
+    padding: 10px; /* Reduce padding on mobile */
+  }
+  
+  .card-item {
+    margin: 10px 0; /* Adjust vertical margin */
+    flex-basis: auto; /* Let the card take full width */
+  }
+  
+  .card {
+    margin-bottom: 15px; /* Reduce space between cards on mobile */
+  }
+}
