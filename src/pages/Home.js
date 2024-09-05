@@ -17,7 +17,7 @@ function Home() {
     <a href="/Notes" className="btn btn-outline-danger">GET IT</a>
   </div>
   <div className="card-footer">
-    bla bla bla
+    
   </div>
 </div>
     </div>

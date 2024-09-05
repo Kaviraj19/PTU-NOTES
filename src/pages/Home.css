@@ -1,29 +1,53 @@
 .card-lg {
-    width: 80%; /* adjust the width to your liking */
-    margin: 40px auto; /* add some margin to center the card */
-  }
-  
-  .card-lg .card-body {
-    padding: 60px; /* add some padding to make the card body bigger */
-  }
+  width: 80%; /* adjust the width to your liking */
+  margin: 40px auto; /* add some margin to center the card */
+}
 
+.card-lg .card-body {
+  padding: 60px; /* add some padding to make the card body bigger */
+}
+
+.card-lg .card-title {
+  font-size: 36px; /* make the title bigger */
+}
+
+.card-lg .card-text {
+  font-size: 24px; /* make the text bigger */
+}
+
+.card-lg .btn {
+  padding: 12px 24px; /* make the button bigger */
+  font-size: 18px; /* make the button text bigger */
+}
+
+.card-header {
+  background-color: #ef0313; /* change the background color to a blue shade */
+  color: #ffffff; /* change the text color to white */
+}
+
+.card-footer {
+  background-color: #f3b8bc;
+  color: #ffffff;
+}
+
+/* Add media queries for responsiveness */
+
+/* For screens smaller than 768px (e.g., tablets) */
+@media (max-width: 768px) {
   .card-lg .card-title {
-    font-size: 36px; /* make the title bigger */
+    font-size: 28px; /* reduce title font size */
   }
-  
   .card-lg .card-text {
-    font-size: 24px; /* make the text bigger */
+    font-size: 18px; /* reduce text font size */
   }
-  
-  .card-lg .btn {
-    padding: 12px 24px; /* make the button bigger */
-    font-size: 18px; /* make the button text bigger */
+}
+
+/* For screens smaller than 480px (e.g., mobile phones) */
+@media (max-width: 480px) {
+  .card-lg .card-title {
+    font-size: 20px; /* reduce title font size further */
   }
-  .card-header {
-    background-color: #ef0313; /* change the background color to a blue shade */
-    color: #ffffff; /* change the text color to white */
+  .card-lg .card-text {
+    font-size: 14px; /* reduce text font size further */
   }
-  .card-footer {
-    background-color: #f86670;
-    color:#ffffff
-  }
+}
