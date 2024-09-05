@@ -45,9 +45,9 @@
 /* For screens smaller than 480px (e.g., mobile phones) */
 @media (max-width: 480px) {
   .card-lg .card-title {
-    font-size: 20px; /* reduce title font size further */
+    font-size: 28px; /* reduce title font size further */
   }
   .card-lg .card-text {
-    font-size: 14px; /* reduce text font size further */
+    font-size: 18px; /* reduce text font size further */
   }
 }
